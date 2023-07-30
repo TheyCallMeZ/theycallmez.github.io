@@ -1,0 +1,64 @@
+body {
+    margin: 100;
+    padding: 100;
+
+}
+
+.image-grid5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Five columns with equal width */
+    grid-gap: 10px;
+}
+	
+.image-grid4 {
+    display: grid;
+    grid-template-columns: repeat(4, 3fr); /* Five columns with equal width */
+    grid-gap: 10px; /* Adjust the gap between images as needed */
+}
+
+.image-grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr); /* Five columns with equal width */
+    grid-gap: 10px; /* Adjust the gap between images as needed */
+}
+
+.storeimg {
+    max-width: 300px !important;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    justify-content: center !important; /* Center horizontally */
+    align-items: center !important; /* Center vertically */
+	overflow: hidden;	
+}
+
+.repoimg {
+    max-width: 500px !important;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center !important; /* Center horizontally */
+    align-items: center !important; /* Center vertically */
+	overflow: hidden;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+	overflow: hidden;
+}
+
+.gray-bg {
+    background-color: #ccc; /* Set the background color to gray (or any other color you prefer) */
+    padding: 10px; /* Add padding to create some space between the image and the background */
+    display: inline-block; /* Ensure the container takes the width of the image */
+    overflow: hidden;
+}
+
+.black-bg {
+    background-color: #000000; /* Set the background color to gray (or any other color you prefer) */
+    padding: 10px; /* Add padding to create some space between the image and the background */
+    display: inline-block; /* Ensure the container takes the width of the image */
+    overflow: hidden;
+}
