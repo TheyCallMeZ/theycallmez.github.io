@@ -1,6 +1,11 @@
 body {
     margin: 100;
     padding: 100;
+    background-image: url('../img/wall-o-filament.png'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+            /* Add any other styles you want for the body */
 
 }
 
