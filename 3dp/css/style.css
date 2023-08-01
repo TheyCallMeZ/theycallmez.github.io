@@ -1,7 +1,7 @@
 body {
     /*margin: 100;
     #padding: 100; */
-    background-image: url('../img/wall-o-filament.png'); 
+    background-image: url('../img/wall-o-filament2.png'); 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -66,4 +66,13 @@ img {
     padding: 10px; /* Add padding to create some space between the image and the background */
     display: inline-block; /* Ensure the container takes the width of the image */
     overflow: hidden;
+}
+
+.text-with-outline {
+  color: black;
+  text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
 }
