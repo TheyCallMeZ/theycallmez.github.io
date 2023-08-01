@@ -1,6 +1,6 @@
 body {
-    margin: 100;
-    padding: 100;
+    /*margin: 100;
+    #padding: 100; */
     background-image: url('../img/wall-o-filament.png'); 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -17,13 +17,13 @@ body {
 	
 .image-grid4 {
     display: grid;
-    grid-template-columns: repeat(4, 3fr); /* Five columns with equal width */
+    grid-template-columns: repeat(4, 1fr); /* Five columns with equal width */
     grid-gap: 10px; /* Adjust the gap between images as needed */
 }
 
 .image-grid3 {
     display: grid;
-    grid-template-columns: repeat(3, 3fr); /* Five columns with equal width */
+    grid-template-columns: repeat(3, 1fr); /* Five columns with equal width */
     grid-gap: 10px; /* Adjust the gap between images as needed */
 }
 
