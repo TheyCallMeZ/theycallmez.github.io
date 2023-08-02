@@ -76,3 +76,46 @@ img {
     -1px 1px 0 white,
     1px 1px 0 white;
 }
+
+.table {
+  display: table;
+  border-collapse: collapse;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle; /* Vertically center content within cells */
+  padding: 5px;
+  text-align: left;
+  border: none;
+  horizontal-align: left;
+}
+
+/* Style the text within the table cell */
+.table-cell span {
+  margin-top: 10px; /* Add spacing between the image and text */
+}
+
+
+.no-margin {
+  margin-bottom: 1;
+}
+
+a {
+  color: #000; /* Set the link color to black (adjust as needed) */
+  text-decoration: none; /* Remove the default underline */
+  text-shadow:
+    -1px -1px 0 #fff, /* Top-left */
+    1px -1px 0 #fff, /* Top-right */
+    -1px 1px 0 #fff, /* Bottom-left */
+    1px 1px 0 #fff; /* Bottom-right */
+  /* Optional: Add padding to create space around the text */
+  padding: 2px;
+  /* Optional: Add a transition effect on the text-shadow property */
+  transition: text-shadow 0.2s;
+}
+
