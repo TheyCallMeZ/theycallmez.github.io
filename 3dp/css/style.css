@@ -119,3 +119,11 @@ a {
   transition: text-shadow 0.2s;
 }
 
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  /* Adjust cell width and layout for small screens */
+  .table-cell {
+    display: block;
+    width: 100%;
+  }
+}
