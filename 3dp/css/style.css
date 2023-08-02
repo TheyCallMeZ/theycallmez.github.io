@@ -125,5 +125,13 @@ a {
   .table-cell {
     display: block;
     width: 100%;
+	
   }
+  
+   body {
+    background-image: url('../img/wall-o-filament5.png'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   }
 }
