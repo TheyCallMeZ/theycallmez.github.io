@@ -9,24 +9,34 @@ body {
 
 }
 
-.image-grid5 {
+.image-grid3 {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Five columns with equal width */
-    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr); /* Five columns with equal width */
+    grid-gap: 100px; /* Adjust the gap between images as needed */
+	margin-top: 10px;
+	margin-left: 100;
+	margin-right:100;
 }
-	
+
 .image-grid4 {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* Five columns with equal width */
     grid-gap: 10px; /* Adjust the gap between images as needed */
+	margin-top: 10px;
+	margin-left: 100;
+	margin-right:100;
 }
 
-.image-grid3 {
+
+.image-grid5 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Five columns with equal width */
-    grid-gap: 10px; /* Adjust the gap between images as needed */
+    grid-template-columns: repeat(5, 1fr); /* Five columns with equal width */
+    grid-gap: 10px;
+		margin-top: 10px;
+	margin-left: 100;
+	margin-right:100;
 }
-
+	
 .storeimg {
     max-width: 300px !important;
     width: 100%;
@@ -48,11 +58,6 @@ body {
 
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-	overflow: hidden;
-}
 
 .gray-bg {
     background-color: #ccc; /* Set the background color to gray (or any other color you prefer) */
