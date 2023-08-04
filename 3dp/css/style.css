@@ -1,127 +1,131 @@
-body {
-    /*margin: 100;
-    #padding: 100; */
-    background-image: url('../img/wall-o-filament2.png'); 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-            /* Add any other styles you want for the body */
+@media screen and (min-width: 600px) {
 
-}
-
-.image-grid3 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Five columns with equal width */
-    grid-gap: 100px; /* Adjust the gap between images as needed */
-	margin-top: 10px;
-	margin-left: 100;
-	margin-right:100;
-}
-
-.image-grid4 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Five columns with equal width */
-    grid-gap: 10px; /* Adjust the gap between images as needed */
-	margin-top: 10px;
-	margin-left: 100;
-	margin-right:100;
-}
-
-
-.image-grid5 {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Five columns with equal width */
-    grid-gap: 10px;
-		margin-top: 10px;
-	margin-left: 100;
-	margin-right:100;
-}
+	body {
+		/*margin: 100;
+		#padding: 100; */
+		background-image: url('../img/wall-o-filament2.png'); 
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+				/* Add any other styles you want for the body */
 	
-.storeimg {
-    max-width: 300px !important;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    justify-content: center !important; /* Center horizontally */
-    align-items: center !important; /* Center vertically */
-	overflow: hidden;	
-}
+	}
+	
+	.image-grid3 {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr); /* Five columns with equal width */
+		grid-gap: 100px; /* Adjust the gap between images as needed */
+		margin-top: 10px;
+		margin-left: 100;
+		margin-right:100;
+	}
+	
+	.image-grid4 {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr); /* Five columns with equal width */
+		grid-gap: 10px; /* Adjust the gap between images as needed */
+		margin-top: 10px;
+		margin-left: 100;
+		margin-right:100;
+	}
+	
+	
+	.image-grid5 {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr); /* Five columns with equal width */
+		grid-gap: 10px;
+		margin-top: 10px;
+		margin-left: 100;
+		margin-right:100;
+	}
+		
+	.storeimg {
+		max-width: 300px !important;
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		justify-content: center !important; /* Center horizontally */
+		align-items: center !important; /* Center vertically */
+		overflow: hidden;	
+	}
+	
+	.repoimg {
+		max-width: 500px !important;
+		width: 100%;
+		height: auto;
+		display: flex;
+		justify-content: center !important; /* Center horizontally */
+		align-items: center !important; /* Center vertically */
+		overflow: hidden;
+	
+	}
+	
+	
+	.gray-bg {
+		background-color: #ccc; /* Set the background color to gray (or any other color you prefer) */
+		padding: 10px; /* Add padding to create some space between the image and the background */
+		display: inline-block; /* Ensure the container takes the width of the image */
+		overflow: hidden;
+	}
+	
+	.black-bg {
+		background-color: #000000; /* Set the background color to gray (or any other color you prefer) */
+		padding: 10px; /* Add padding to create some space between the image and the background */
+		display: inline-block; /* Ensure the container takes the width of the image */
+		overflow: hidden;
+	}
+	
+	.text-with-outline {
+	color: black;
+	text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
+	}
+	
+	.table {
+	display: table;
+	border-collapse: collapse;
+	}
+	
+	.table-row {
+	display: table-row;
+	}
+	
+	.table-cell {
+	display: table-cell;
+	vertical-align: middle; /* Vertically center content within cells */
+	padding: 5px;
+	text-align: left;
+	border: none;
+	horizontal-align: left;
+	}
+	
+	/* Style the text within the table cell */
+	.table-cell span {
+	margin-top: 10px; /* Add spacing between the image and text */
+	}
+	
+	
+	.no-margin {
+	margin-bottom: 1;
+	}
+	
+	a {
+	color: #000; /* Set the link color to black (adjust as needed) */
+	text-decoration: none; /* Remove the default underline */
+	text-shadow:
+		-1px -1px 0 #fff, /* Top-left */
+		1px -1px 0 #fff, /* Top-right */
+		-1px 1px 0 #fff, /* Bottom-left */
+		1px 1px 0 #fff; /* Bottom-right */
+	/* Optional: Add padding to create space around the text */
+	padding: 2px;
+	/* Optional: Add a transition effect on the text-shadow property */
+	transition: text-shadow 0.2s;
+	}
 
-.repoimg {
-    max-width: 500px !important;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center !important; /* Center horizontally */
-    align-items: center !important; /* Center vertically */
-	overflow: hidden;
-
-}
-
-
-.gray-bg {
-    background-color: #ccc; /* Set the background color to gray (or any other color you prefer) */
-    padding: 10px; /* Add padding to create some space between the image and the background */
-    display: inline-block; /* Ensure the container takes the width of the image */
-    overflow: hidden;
-}
-
-.black-bg {
-    background-color: #000000; /* Set the background color to gray (or any other color you prefer) */
-    padding: 10px; /* Add padding to create some space between the image and the background */
-    display: inline-block; /* Ensure the container takes the width of the image */
-    overflow: hidden;
-}
-
-.text-with-outline {
-  color: black;
-  text-shadow:
-    -1px -1px 0 white,
-    1px -1px 0 white,
-    -1px 1px 0 white,
-    1px 1px 0 white;
-}
-
-.table {
-  display: table;
-  border-collapse: collapse;
-}
-
-.table-row {
-  display: table-row;
-}
-
-.table-cell {
-  display: table-cell;
-  vertical-align: middle; /* Vertically center content within cells */
-  padding: 5px;
-  text-align: left;
-  border: none;
-  horizontal-align: left;
-}
-
-/* Style the text within the table cell */
-.table-cell span {
-  margin-top: 10px; /* Add spacing between the image and text */
-}
-
-
-.no-margin {
-  margin-bottom: 1;
-}
-
-a {
-  color: #000; /* Set the link color to black (adjust as needed) */
-  text-decoration: none; /* Remove the default underline */
-  text-shadow:
-    -1px -1px 0 #fff, /* Top-left */
-    1px -1px 0 #fff, /* Top-right */
-    -1px 1px 0 #fff, /* Bottom-left */
-    1px 1px 0 #fff; /* Bottom-right */
-  /* Optional: Add padding to create space around the text */
-  padding: 2px;
-  /* Optional: Add a transition effect on the text-shadow property */
-  transition: text-shadow 0.2s;
 }
 
 /* Responsive styles */
@@ -132,6 +136,105 @@ a {
     width: 100%;
 	
   }
+  
+  	.image-grid3 {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr); /* Five columns with equal width */
+		grid-gap: 100px; /* Adjust the gap between images as needed */
+
+	}
+	
+	.image-grid4 {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr); /* Five columns with equal width */
+		grid-gap: 10px; /* Adjust the gap between images as needed */
+	}
+	
+	
+	.image-grid5 {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr); /* Five columns with equal width */
+		grid-gap: 10px;
+	}
+		
+	.storeimg {
+		max-width: 300px !important;
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		justify-content: center !important; /* Center horizontally */
+		align-items: center !important; /* Center vertically */
+		overflow: hidden;	
+	}
+	
+	.repoimg {
+		max-width: 500px !important;
+		width: 100%;
+		height: auto;
+		display: flex;
+		justify-content: center !important; /* Center horizontally */
+		align-items: center !important; /* Center vertically */
+		overflow: hidden;
+	
+	}
+	
+	
+	.gray-bg {
+		background-color: #ccc; /* Set the background color to gray (or any other color you prefer) */
+		padding: 10px; /* Add padding to create some space between the image and the background */
+		display: inline-block; /* Ensure the container takes the width of the image */
+		overflow: hidden;
+	}
+	
+	.black-bg {
+		background-color: #000000; /* Set the background color to gray (or any other color you prefer) */
+		padding: 10px; /* Add padding to create some space between the image and the background */
+		display: inline-block; /* Ensure the container takes the width of the image */
+		overflow: hidden;
+	}
+	
+	.text-with-outline {
+	color: black;
+	text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
+	}
+	
+	.table {
+	display: table;
+	border-collapse: collapse;
+	}
+	
+	.table-row {
+	display: table-row;
+	}
+
+
+	/* Style the text within the table cell */
+	.table-cell span {
+	margin-top: 10px; /* Add spacing between the image and text */
+	}
+	
+	
+	.no-margin {
+	margin-bottom: 1;
+	}
+	
+	a {
+	color: #000; /* Set the link color to black (adjust as needed) */
+	text-decoration: none; /* Remove the default underline */
+	text-shadow:
+		-1px -1px 0 #fff, /* Top-left */
+		1px -1px 0 #fff, /* Top-right */
+		-1px 1px 0 #fff, /* Bottom-left */
+		1px 1px 0 #fff; /* Bottom-right */
+	/* Optional: Add padding to create space around the text */
+	padding: 2px;
+	/* Optional: Add a transition effect on the text-shadow property */
+	transition: text-shadow 0.2s;
+	}
   
    body {
     background-image: url('../img/wall-o-filament5.png'); 
