@@ -11,7 +11,7 @@
 	
 	}
 	
-	.image-grid3 {
+	.repo-grid {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr); /* Five columns with equal width */
 		grid-gap: 100px; /* Adjust the gap between images as needed */
@@ -20,7 +20,7 @@
 		margin-right:100;
 	}
 	
-	.image-grid4 {
+	.store-grid {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr); /* Five columns with equal width */
 		grid-gap: 10px; /* Adjust the gap between images as needed */
@@ -30,7 +30,7 @@
 	}
 	
 	
-	.image-grid5 {
+	.yt-grid {
 		display: grid;
 		grid-template-columns: repeat(5, 1fr); /* Five columns with equal width */
 		grid-gap: 10px;
@@ -137,23 +137,23 @@
 	
   }
   
-  	.image-grid3 {
+  	.repo-grid {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr); /* Five columns with equal width */
+		grid-template-columns: repeat(2, 1fr); /* Five columns with equal width */
 		grid-gap: 100px; /* Adjust the gap between images as needed */
 
 	}
 	
-	.image-grid4 {
+	.store-grid {
 		display: grid;
-		grid-template-columns: repeat(4, 1fr); /* Five columns with equal width */
+		grid-template-columns: repeat(2, 1fr); /* Five columns with equal width */
 		grid-gap: 10px; /* Adjust the gap between images as needed */
 	}
 	
 	
 	.image-grid5 {
 		display: grid;
-		grid-template-columns: repeat(5, 1fr); /* Five columns with equal width */
+		grid-template-columns: repeat(2, 1fr); /* Five columns with equal width */
 		grid-gap: 10px;
 	}
 		
