@@ -7,11 +7,30 @@
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: cover;
+		text-align: center;
 				/* Add any other styles you want for the body */
 	
 	}
 	
 	.repo-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr); /* Five columns with equal width */
+		grid-gap: 100px; /* Adjust the gap between images as needed */
+		margin-top: 10px;
+		margin-left: 100;
+		margin-right:100;
+	}
+
+	.extra-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr); /* Five columns with equal width */
+		grid-gap: 100px; /* Adjust the gap between images as needed */
+		margin-top: 10px;
+		margin-left: 100;
+		margin-right:100;
+	}
+
+	.shows-grid {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr); /* Five columns with equal width */
 		grid-gap: 100px; /* Adjust the gap between images as needed */
@@ -138,6 +157,20 @@
   }
   
   	.repo-grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr); /* Five columns with equal width */
+		grid-gap: 100px; /* Adjust the gap between images as needed */
+
+	}
+
+	.extra-grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr); /* Five columns with equal width */
+		grid-gap: 100px; /* Adjust the gap between images as needed */
+
+	}
+
+	.shows-grid {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr); /* Five columns with equal width */
 		grid-gap: 100px; /* Adjust the gap between images as needed */
