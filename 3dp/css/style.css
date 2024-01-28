@@ -79,14 +79,22 @@
 		overflow: hidden;	
 		border-radius: 10%; /* This will be responsive to the size of the image */
 	}
+
+	.store-grid a {
+		align-self: center;
+		vertical-align: center;
+		justify-content: center; /* Center horizontally */
+		align-items: center; /* Center vertically */
+	}
 		
 	.storeimg {
 		max-width: 300px !important;
-		width: 100%;
-		height: auto;
+		width: auto;
+		max-height: 120px;
 		overflow: hidden;
-		justify-content: center !important; /* Center horizontally */
-		align-items: center !important; /* Center vertically */
+		justify-content: center; /* Center horizontally */
+		align-items: center; /* Center vertically */
+		align-self: center;
 		overflow: hidden;	
 	}
 	
