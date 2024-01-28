@@ -12,6 +12,17 @@
 	
 	}
 	
+	.banner-logo {
+		max-width: 300px; /* Or whatever max width you prefer */
+		height: auto; /* Maintain aspect ratio */
+	}
+
+	.banner { /* Add this class to the parent container of the image */
+		display: flex;
+		justify-content: center; /* Center children horizontally */
+		flex-direction: row; /* Ensure the children are laid out in a row */
+	  }
+
 	.repo-grid {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr); /* Five columns with equal width */
@@ -46,6 +57,7 @@
 		margin-top: 10px;
 		margin-left: 100;
 		margin-right:100;
+		border-radius: 10%; /* This will be responsive to the size of the image */
 	}
 	
 	
@@ -56,6 +68,16 @@
 		margin-top: 10px;
 		margin-left: 100;
 		margin-right:100;
+	}
+
+	.ytimg {
+		max-width: 200px !important;
+		height: auto;
+		overflow: hidden;
+		justify-content: center !important; /* Center horizontally */
+		align-items: center !important; /* Center vertically */
+		overflow: hidden;	
+		border-radius: 10%; /* This will be responsive to the size of the image */
 	}
 		
 	.storeimg {
@@ -85,6 +107,7 @@
 		padding: 10px; /* Add padding to create some space between the image and the background */
 		display: inline-block; /* Ensure the container takes the width of the image */
 		overflow: hidden;
+		border-radius: 10%; /* This will be responsive to the size of the image */
 	}
 	
 	.black-bg {
@@ -156,21 +179,41 @@
 	
   }
   
+  .banner-logo {
+	max-width: 300px; /* Or whatever max width you prefer */
+	height: auto; /* Maintain aspect ratio */
+}
+
+.banner { /* Add this class to the parent container of the image */
+	display: flex;
+	justify-content: center; /* Center children horizontally */
+	flex-direction: row; /* Ensure the children are laid out in a row */
+  }
+
   	.repo-grid {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr); /* Five columns with equal width */
 		grid-gap: 100px; /* Adjust the gap between images as needed */
 		text-align: center;
-		justify-content: center;
+
 
 	}
+
+	.center-wrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		min-height: 100vh; /* Use viewport height to ensure it takes at least the full height of the screen */
+	  }
+	  
 
 	.extra-grid {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr); /* Five columns with equal width */
 		grid-gap: 100px; /* Adjust the gap between images as needed */
 		text-align: center;
-		justify-content: center;
+
 
 	}
 
@@ -196,6 +239,8 @@
 		display: grid;
 		grid-template-columns: repeat(2, 1fr); /* Five columns with equal width */
 		grid-gap: 10px;
+		border-radius: 10%; /* This will be responsive to the size of the image */
+		padding-left: 10vw;
 	}
 		
 	.storeimg {
@@ -215,6 +260,7 @@
 		justify-content: center !important; /* Center horizontally */
 		align-items: center !important; /* Center vertically */
 		overflow: hidden;	
+		border-radius: 10%; /* This will be responsive to the size of the image */
 	}
 	
 	.repoimg {
@@ -234,6 +280,7 @@
 		padding: 10px; /* Add padding to create some space between the image and the background */
 		display: inline-block; /* Ensure the container takes the width of the image */
 		overflow: hidden;
+		border-radius: 10%; /* This will be responsive to the size of the image */
 	}
 	
 	.black-bg {
