@@ -78,6 +78,11 @@
 		-1px 1px 0 white,
 		1px 1px 0 white;
 	}
+
+	.creator-title {
+		font-size: x-large;
+		font-weight: bold;
+	}
 	
 	.table {
 	display: table;
